@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\TANCH\\Desktop\\Repeat\\RepeatCA_API\\GamesAPI\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A3D218C6-7230-419E-88F2-4E9001ADC296}|GamesAPI.csproj|c:\\users\\tanch\\desktop\\repeat\\repeatca_api\\gamesapi\\models\\gameitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A3D218C6-7230-419E-88F2-4E9001ADC296}|GamesAPI.csproj|solutionrelative:models\\gameitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A3D218C6-7230-419E-88F2-4E9001ADC296}|GamesAPI.csproj|c:\\users\\tanch\\desktop\\repeat\\repeatca_api\\gamesapi\\models\\developeritem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A3D218C6-7230-419E-88F2-4E9001ADC296}|GamesAPI.csproj|solutionrelative:models\\developeritem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "GameItem.cs",
+              "DocumentMoniker": "C:\\Users\\TANCH\\Desktop\\Repeat\\RepeatCA_API\\GamesAPI\\Models\\GameItem.cs",
+              "RelativeDocumentMoniker": "Models\\GameItem.cs",
+              "ToolTip": "C:\\Users\\TANCH\\Desktop\\Repeat\\RepeatCA_API\\GamesAPI\\Models\\GameItem.cs",
+              "RelativeToolTip": "Models\\GameItem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-26T20:35:01.64Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DeveloperItem.cs",
+              "DocumentMoniker": "C:\\Users\\TANCH\\Desktop\\Repeat\\RepeatCA_API\\GamesAPI\\Models\\DeveloperItem.cs",
+              "RelativeDocumentMoniker": "Models\\DeveloperItem.cs",
+              "ToolTip": "C:\\Users\\TANCH\\Desktop\\Repeat\\RepeatCA_API\\GamesAPI\\Models\\DeveloperItem.cs",
+              "RelativeToolTip": "Models\\DeveloperItem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-26T20:24:10.825Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

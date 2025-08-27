@@ -3,8 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\TANCH\\Desktop\\Repeat\\RepeatCA_API\\GamesAPI\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A3D218C6-7230-419E-88F2-4E9001ADC296}|GamesAPI.csproj|c:\\users\\tanch\\desktop\\repeat\\repeatca_api\\gamesapi\\controllers\\gamescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A3D218C6-7230-419E-88F2-4E9001ADC296}|GamesAPI.csproj|solutionrelative:controllers\\gamescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A3D218C6-7230-419E-88F2-4E9001ADC296}|GamesAPI.csproj|c:\\users\\tanch\\desktop\\repeat\\repeatca_api\\gamesapi\\models\\gameitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A3D218C6-7230-419E-88F2-4E9001ADC296}|GamesAPI.csproj|solutionrelative:models\\gameitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,19 +14,23 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "GamesController.cs",
-              "DocumentMoniker": "C:\\Users\\TANCH\\Desktop\\Repeat\\RepeatCA_API\\GamesAPI\\Controllers\\GamesController.cs",
-              "RelativeDocumentMoniker": "Controllers\\GamesController.cs",
-              "ToolTip": "C:\\Users\\TANCH\\Desktop\\Repeat\\RepeatCA_API\\GamesAPI\\Controllers\\GamesController.cs",
-              "RelativeToolTip": "Controllers\\GamesController.cs",
-              "ViewState": "AgIAAFgAAAAAAAAAAAAcwAAAAAAAAAAAAAAAAA==",
+              "Title": "GameItem.cs",
+              "DocumentMoniker": "C:\\Users\\TANCH\\Desktop\\Repeat\\RepeatCA_API\\GamesAPI\\Models\\GameItem.cs",
+              "RelativeDocumentMoniker": "Models\\GameItem.cs",
+              "ToolTip": "C:\\Users\\TANCH\\Desktop\\Repeat\\RepeatCA_API\\GamesAPI\\Models\\GameItem.cs",
+              "RelativeToolTip": "Models\\GameItem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-27T19:29:05.888Z",
+              "WhenOpened": "2025-08-27T21:09:46.948Z",
               "EditorCaption": ""
             }
           ]

@@ -1,9 +1,11 @@
 ﻿using GamesAPI.Models;
 using MongoDB.Driver;
+using System.Collections.Generic;
+using System.Threading.Tasks;
 
 namespace GamesAPI.Services
 {
-    public class GameService
+    public class GameService: IGameService
     {
         private readonly IMongoCollection<GameItem> _games;
 
@@ -11,6 +13,7 @@ namespace GamesAPI.Services
         {
             _games = games;
         }
+
 
         public async Task<List<GameItem>> GetAllAsync() =>
             await _games.Find(_ => true).ToListAsync();

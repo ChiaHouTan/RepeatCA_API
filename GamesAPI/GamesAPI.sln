@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.14.36221.1 d17.14
+VisualStudioVersion = 17.14.36221.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GamesAPI", "GamesAPI.csproj", "{A3D218C6-7230-419E-88F2-4E9001ADC296}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GamesAPI.Test", "..\GamesAPI.Test\GamesAPI.Test.csproj", "{892ED268-8040-440A-AB90-E173D26B25C6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{A3D218C6-7230-419E-88F2-4E9001ADC296}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A3D218C6-7230-419E-88F2-4E9001ADC296}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A3D218C6-7230-419E-88F2-4E9001ADC296}.Release|Any CPU.Build.0 = Release|Any CPU
+		{892ED268-8040-440A-AB90-E173D26B25C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{892ED268-8040-440A-AB90-E173D26B25C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{892ED268-8040-440A-AB90-E173D26B25C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{892ED268-8040-440A-AB90-E173D26B25C6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

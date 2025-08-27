@@ -3,8 +3,31 @@
   "WorkspaceRootPath": "C:\\Users\\TANCH\\Desktop\\Repeat\\RepeatCA_API\\GamesAPI\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{A3D218C6-7230-419E-88F2-4E9001ADC296}|GamesAPI.csproj|c:\\users\\tanch\\desktop\\repeat\\repeatca_api\\gamesapi\\services\\igameservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A3D218C6-7230-419E-88F2-4E9001ADC296}|GamesAPI.csproj|solutionrelative:services\\igameservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A3D218C6-7230-419E-88F2-4E9001ADC296}|GamesAPI.csproj|c:\\users\\tanch\\desktop\\repeat\\repeatca_api\\gamesapi\\services\\gameservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A3D218C6-7230-419E-88F2-4E9001ADC296}|GamesAPI.csproj|solutionrelative:services\\gameservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A3D218C6-7230-419E-88F2-4E9001ADC296}|GamesAPI.csproj|c:\\users\\tanch\\desktop\\repeat\\repeatca_api\\gamesapi\\controllers\\gamescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A3D218C6-7230-419E-88F2-4E9001ADC296}|GamesAPI.csproj|solutionrelative:controllers\\gamescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{892ED268-8040-440A-AB90-E173D26B25C6}|..\\GamesAPI.Test\\GamesAPI.Test.csproj|c:\\users\\tanch\\desktop\\repeat\\repeatca_api\\gamesapi.test\\unittestdeveloperservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A3D218C6-7230-419E-88F2-4E9001ADC296}|GamesAPI.csproj|c:\\users\\tanch\\desktop\\repeat\\repeatca_api\\gamesapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A3D218C6-7230-419E-88F2-4E9001ADC296}|GamesAPI.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A3D218C6-7230-419E-88F2-4E9001ADC296}|GamesAPI.csproj|c:\\users\\tanch\\desktop\\repeat\\repeatca_api\\gamesapi\\controllers\\developerscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A3D218C6-7230-419E-88F2-4E9001ADC296}|GamesAPI.csproj|solutionrelative:controllers\\developerscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A3D218C6-7230-419E-88F2-4E9001ADC296}|GamesAPI.csproj|c:\\users\\tanch\\desktop\\repeat\\repeatca_api\\gamesapi\\services\\developerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A3D218C6-7230-419E-88F2-4E9001ADC296}|GamesAPI.csproj|solutionrelative:services\\developerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,19 +37,101 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "IGameService.cs",
+              "DocumentMoniker": "C:\\Users\\TANCH\\Desktop\\Repeat\\RepeatCA_API\\GamesAPI\\Services\\IGameService.cs",
+              "RelativeDocumentMoniker": "Services\\IGameService.cs",
+              "ToolTip": "C:\\Users\\TANCH\\Desktop\\Repeat\\RepeatCA_API\\GamesAPI\\Services\\IGameService.cs",
+              "RelativeToolTip": "Services\\IGameService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-27T21:03:30.974Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "GameService.cs",
+              "DocumentMoniker": "C:\\Users\\TANCH\\Desktop\\Repeat\\RepeatCA_API\\GamesAPI\\Services\\GameService.cs",
+              "RelativeDocumentMoniker": "Services\\GameService.cs",
+              "ToolTip": "C:\\Users\\TANCH\\Desktop\\Repeat\\RepeatCA_API\\GamesAPI\\Services\\GameService.cs",
+              "RelativeToolTip": "Services\\GameService.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAA9wAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-27T21:02:57.454Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "DeveloperService.cs",
+              "DocumentMoniker": "C:\\Users\\TANCH\\Desktop\\Repeat\\RepeatCA_API\\GamesAPI\\Services\\DeveloperService.cs",
+              "RelativeDocumentMoniker": "Services\\DeveloperService.cs",
+              "ToolTip": "C:\\Users\\TANCH\\Desktop\\Repeat\\RepeatCA_API\\GamesAPI\\Services\\DeveloperService.cs",
+              "RelativeToolTip": "Services\\DeveloperService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-27T21:02:24.585Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "DevelopersController.cs",
               "DocumentMoniker": "C:\\Users\\TANCH\\Desktop\\Repeat\\RepeatCA_API\\GamesAPI\\Controllers\\DevelopersController.cs",
               "RelativeDocumentMoniker": "Controllers\\DevelopersController.cs",
               "ToolTip": "C:\\Users\\TANCH\\Desktop\\Repeat\\RepeatCA_API\\GamesAPI\\Controllers\\DevelopersController.cs",
               "RelativeToolTip": "Controllers\\DevelopersController.cs",
-              "ViewState": "AgIAACwAAAAAAAAAAAAIwEEAAAA+AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-27T18:41:31.595Z",
+              "WhenOpened": "2025-08-27T21:02:01.493Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "GamesController.cs",
+              "DocumentMoniker": "C:\\Users\\TANCH\\Desktop\\Repeat\\RepeatCA_API\\GamesAPI\\Controllers\\GamesController.cs",
+              "RelativeDocumentMoniker": "Controllers\\GamesController.cs",
+              "ToolTip": "C:\\Users\\TANCH\\Desktop\\Repeat\\RepeatCA_API\\GamesAPI\\Controllers\\GamesController.cs",
+              "RelativeToolTip": "Controllers\\GamesController.cs",
+              "ViewState": "AgIAAEMAAAAAAAAAAAAkwGQAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-27T21:01:10.447Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\TANCH\\Desktop\\Repeat\\RepeatCA_API\\GamesAPI\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\TANCH\\Desktop\\Repeat\\RepeatCA_API\\GamesAPI\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAACcAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-27T20:48:24.675Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UnitTestDeveloperService.cs",
+              "DocumentMoniker": "C:\\Users\\TANCH\\Desktop\\Repeat\\RepeatCA_API\\GamesAPI.Test\\UnitTestDeveloperService.cs",
+              "RelativeDocumentMoniker": "..\\GamesAPI.Test\\UnitTestDeveloperService.cs",
+              "ToolTip": "C:\\Users\\TANCH\\Desktop\\Repeat\\RepeatCA_API\\GamesAPI.Test\\UnitTestDeveloperService.cs",
+              "RelativeToolTip": "..\\GamesAPI.Test\\UnitTestDeveloperService.cs",
+              "ViewState": "AgIAALYAAAAAAAAAAAAmwLMAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-27T20:23:57.163Z",
               "EditorCaption": ""
             }
           ]

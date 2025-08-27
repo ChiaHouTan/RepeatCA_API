@@ -9,9 +9,9 @@ namespace GamesAPI.Controllers
     [Route("api/[controller]")]
     public class GamesController : ControllerBase
     {
-        private readonly GameService _service;
+        private readonly IGameService _service;
 
-        public GamesController(GameService service)
+        public GamesController(IGameService service)
         {
             _service = service;
         }

@@ -43,7 +43,7 @@ builder.Services.AddScoped<IMongoCollection<GameItem>>(s =>
 });
 
 builder.Services.AddScoped<DeveloperService>();
-builder.Services.AddScoped<GameService>();
+builder.Services.AddScoped<IGameService, GameService>();
 
 builder.Services.AddControllers()
     .AddJsonOptions(options =>

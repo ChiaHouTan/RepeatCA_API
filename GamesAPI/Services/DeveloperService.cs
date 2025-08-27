@@ -7,9 +7,9 @@ namespace GamesAPI.Services
     public class DeveloperService
     {
         private readonly IMongoCollection<DeveloperItem> _developers;
-        private readonly GameService _gameService;
+        private readonly IGameService _gameService;
 
-        public DeveloperService(IMongoCollection<DeveloperItem> developers, GameService gameService)
+        public DeveloperService(IMongoCollection<DeveloperItem> developers, IGameService gameService)
         {
             _developers = developers;
             _gameService = gameService;

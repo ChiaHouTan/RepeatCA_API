@@ -27,7 +27,6 @@ C:\Users\TANCH\Desktop\Repeat\RepeatCA_API\GamesAPI\obj\Debug\net8.0\staticwebas
 C:\Users\TANCH\Desktop\Repeat\RepeatCA_API\GamesAPI\obj\Debug\net8.0\staticwebassets.build.json.cache
 C:\Users\TANCH\Desktop\Repeat\RepeatCA_API\GamesAPI\obj\Debug\net8.0\staticwebassets.development.json
 C:\Users\TANCH\Desktop\Repeat\RepeatCA_API\GamesAPI\obj\Debug\net8.0\staticwebassets.build.endpoints.json
-C:\Users\TANCH\Desktop\Repeat\RepeatCA_API\GamesAPI\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
 C:\Users\TANCH\Desktop\Repeat\RepeatCA_API\GamesAPI\obj\Debug\net8.0\GamesAPI.csproj.Up2Date
 C:\Users\TANCH\Desktop\Repeat\RepeatCA_API\GamesAPI\obj\Debug\net8.0\GamesAPI.dll
 C:\Users\TANCH\Desktop\Repeat\RepeatCA_API\GamesAPI\obj\Debug\net8.0\refint\GamesAPI.dll

@@ -1,0 +1,17 @@
+C:\Users\TANCH\Desktop\Repeat\RepeatCA_API\GamesAPI\obj\Release\net8.0\PubTmp\Out\GamesAPI.exe
+C:\Users\TANCH\Desktop\Repeat\RepeatCA_API\GamesAPI\obj\Release\net8.0\PubTmp\Out\appsettings.Development.json
+C:\Users\TANCH\Desktop\Repeat\RepeatCA_API\GamesAPI\obj\Release\net8.0\PubTmp\Out\appsettings.json
+C:\Users\TANCH\Desktop\Repeat\RepeatCA_API\GamesAPI\obj\Release\net8.0\PubTmp\Out\GamesAPI.dll
+C:\Users\TANCH\Desktop\Repeat\RepeatCA_API\GamesAPI\obj\Release\net8.0\PubTmp\Out\GamesAPI.deps.json
+C:\Users\TANCH\Desktop\Repeat\RepeatCA_API\GamesAPI\obj\Release\net8.0\PubTmp\Out\GamesAPI.runtimeconfig.json
+C:\Users\TANCH\Desktop\Repeat\RepeatCA_API\GamesAPI\obj\Release\net8.0\PubTmp\Out\GamesAPI.pdb
+C:\Users\TANCH\Desktop\Repeat\RepeatCA_API\GamesAPI\obj\Release\net8.0\PubTmp\Out\DnsClient.dll
+C:\Users\TANCH\Desktop\Repeat\RepeatCA_API\GamesAPI\obj\Release\net8.0\PubTmp\Out\Microsoft.OpenApi.dll
+C:\Users\TANCH\Desktop\Repeat\RepeatCA_API\GamesAPI\obj\Release\net8.0\PubTmp\Out\MongoDB.Bson.dll
+C:\Users\TANCH\Desktop\Repeat\RepeatCA_API\GamesAPI\obj\Release\net8.0\PubTmp\Out\MongoDB.Driver.dll
+C:\Users\TANCH\Desktop\Repeat\RepeatCA_API\GamesAPI\obj\Release\net8.0\PubTmp\Out\SharpCompress.dll
+C:\Users\TANCH\Desktop\Repeat\RepeatCA_API\GamesAPI\obj\Release\net8.0\PubTmp\Out\Snappier.dll
+C:\Users\TANCH\Desktop\Repeat\RepeatCA_API\GamesAPI\obj\Release\net8.0\PubTmp\Out\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\TANCH\Desktop\Repeat\RepeatCA_API\GamesAPI\obj\Release\net8.0\PubTmp\Out\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\TANCH\Desktop\Repeat\RepeatCA_API\GamesAPI\obj\Release\net8.0\PubTmp\Out\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\TANCH\Desktop\Repeat\RepeatCA_API\GamesAPI\obj\Release\net8.0\PubTmp\Out\ZstdSharp.dll

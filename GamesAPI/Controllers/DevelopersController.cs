@@ -16,8 +16,10 @@ namespace GamesAPI.Controllers
         }
 
         [HttpGet]
-        public async Task<ActionResult<List<DeveloperItem>>> Get() =>
-            await _service.GetAllAsync();
+        public async Task<ActionResult<List<DeveloperDto>>> Get()
+        {
+
+        }
 
         [HttpGet("{id}")]
         public async Task<ActionResult<DeveloperItem>> Get(string id)

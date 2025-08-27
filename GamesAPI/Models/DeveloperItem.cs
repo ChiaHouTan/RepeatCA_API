@@ -22,4 +22,13 @@ namespace GamesAPI.Models
         [BsonElement("IsIndependent")]
         public bool IsIndependent { get; set; }
     }
+
+    public class DeveloperDto
+    {
+        public Guid Id { get; set; }
+        public string? DeveloperName { get; set; }
+        public int FoundedYear { get; set; } // int instead of DateTime
+        public string? Country { get; set; }
+        public bool IsIndependent { get; set; }
+    }
 }

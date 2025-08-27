@@ -50,8 +50,7 @@
               "RelativeToolTip": "Controllers\\GamesController.cs",
               "ViewState": "AgIAAAgAAAAAAAAAAAAAwBYAAABAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-26T21:48:35.477Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-26T21:48:35.477Z"
             },
             {
               "$type": "Document",
@@ -63,8 +62,7 @@
               "RelativeToolTip": "Controllers\\DevelopersController.cs",
               "ViewState": "AgIAABMAAAAAAAAAAADwvzoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-26T21:48:16.425Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-26T21:48:16.425Z"
             },
             {
               "$type": "Document",
@@ -76,8 +74,7 @@
               "RelativeToolTip": "Services\\GameService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-26T21:46:53.879Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-26T21:46:53.879Z"
             },
             {
               "$type": "Document",
@@ -89,8 +86,7 @@
               "RelativeToolTip": "Services\\DeveloperService.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAABQAAAA1AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-26T21:46:28.464Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-26T21:46:28.464Z"
             },
             {
               "$type": "Document",
@@ -102,8 +98,7 @@
               "RelativeToolTip": "Models\\DeveloperItem.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-26T21:44:57.071Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-26T21:44:57.071Z"
             },
             {
               "$type": "Document",
@@ -125,7 +120,7 @@
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\Users\\TANCH\\Desktop\\Repeat\\RepeatCA_API\\GamesAPI\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAAABkAAAADAAAAAAAAAA==",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAACoAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-26T21:25:14.029Z",
               "EditorCaption": ""

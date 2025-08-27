@@ -40,6 +40,8 @@ builder.Services.AddScoped<IMongoCollection<GameItem>>(s =>
     return db.GetCollection<GameItem>(settings.GamesCollection);
 });
 
+builder.Services.AddScoped<DeveloperService>();
+builder.Services.AddScoped<GameService>();
 
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle

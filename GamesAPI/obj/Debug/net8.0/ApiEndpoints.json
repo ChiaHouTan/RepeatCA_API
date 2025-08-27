@@ -100,6 +100,32 @@
   },
   {
     "ContainingType": "GamesAPI.Controllers.DevelopersController",
+    "Method": "GetByName",
+    "RelativePath": "api/Developers/byName/{name}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "name",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[GamesAPI.Models.DeveloperDto, GamesAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "GamesAPI.Controllers.DevelopersController",
     "Method": "GetDevelopersWithGames",
     "RelativePath": "api/Developers/withGames",
     "HttpMethod": "GET",
@@ -227,6 +253,32 @@
     "Parameters": [
       {
         "Name": "developerId",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[GamesAPI.Models.GameDto, GamesAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "GamesAPI.Controllers.GamesController",
+    "Method": "GetByGenre",
+    "RelativePath": "api/Games/byGenre/{genre}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "genre",
         "Type": "System.String",
         "IsRequired": true
       }

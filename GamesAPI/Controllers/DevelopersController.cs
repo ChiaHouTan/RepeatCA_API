@@ -2,6 +2,7 @@
 using GamesAPI.Models;
 using GamesAPI.Services;
 using Microsoft.AspNetCore.Mvc;
+using MongoDB.Driver;
 
 namespace GamesAPI.Controllers
 {
@@ -51,6 +52,28 @@ namespace GamesAPI.Controllers
                 Country = dev.Country,
                 IsIndependent = dev.IsIndependent
             };
+        }
+
+        [HttpGet("byName/{name}")]
+        public async Task<ActionResult<List<DeveloperDto>>> GetByName(string name)
+        {
+
+            var developers = await _service.GetByNameAsync(name);
+
+            if (developers == null || developers.Count == 0)
+                return NotFound();
+
+            // Map DeveloperItem -> DeveloperDto in controller
+            var result = developers.Select(d => new DeveloperDto
+            {
+                Id = d.Id,
+                DeveloperName = d.DeveloperName,
+                FoundedYear = d.FoundedYear.Year, // convert DateTime to int
+                Country = d.Country,
+                IsIndependent = d.IsIndependent
+            }).ToList();
+
+            return Ok(result);
         }
 
         [HttpPost]

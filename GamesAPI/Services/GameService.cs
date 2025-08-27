@@ -21,6 +21,18 @@ namespace GamesAPI.Services
         public async Task<GameItem?> GetByIdAsync(string id) =>
             await _games.Find(g => g.Id == id).FirstOrDefaultAsync();
 
+        public async Task<List<GameItem>> GetByGenreAsync(string genre)
+        {
+            // Convert string to enum (ignore case)
+            if (!Enum.TryParse<GameItem.GenreType>(genre, true, out var genreEnum))
+            {
+                return new List<GameItem>(); // Return empty if invalid genre
+            }
+
+            var filter = Builders<GameItem>.Filter.Eq(g => g.Genre, genreEnum);
+            return await _games.Find(filter).ToListAsync();
+        }
+
         public async Task CreateAsync(GameItem game) =>
             await _games.InsertOneAsync(game);
 

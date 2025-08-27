@@ -55,6 +55,13 @@ namespace GamesAPI.Services
         public async Task<DeveloperItem?> GetByIdAsync(string id) =>
             await _developers.Find(d => d.Id == id).FirstOrDefaultAsync();
 
+        public async Task<List<DeveloperItem>> GetByNameAsync(string name)
+        {
+            // Case-insensitive search
+            var filter = Builders<DeveloperItem>.Filter.Regex(d => d.DeveloperName, new MongoDB.Bson.BsonRegularExpression(name, "i"));
+            return await _developers.Find(filter).ToListAsync();
+        }
+
         public async Task CreateAsync(DeveloperItem dev) =>
             await _developers.InsertOneAsync(dev);
 

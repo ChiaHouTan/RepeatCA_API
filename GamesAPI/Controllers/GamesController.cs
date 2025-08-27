@@ -77,6 +77,29 @@ namespace GamesAPI.Controllers
             return Ok(result);
         }
 
+        [HttpGet("byGenre/{genre}")]
+        public async Task<ActionResult<List<GameDto>>> GetByGenre(string genre)
+        {
+            var games = await _service.GetByGenreAsync(genre);
+
+            if (games == null || games.Count == 0) return NotFound();
+
+            // Map GameItem -> GameDto
+            var result = games.Select(g => new GameDto
+            {
+                Id = g.Id,
+                Title = g.Title,
+                Image = g.Image,
+                ReleaseDate = g.ReleaseDate,
+                Genre = g.Genre.ToString(),
+                Price = g.Price,
+                Rating = g.Rating,
+                DeveloperId = g.DeveloperId
+            }).ToList();
+
+            return Ok(result);
+        }
+
         [HttpPost]
         public async Task<IActionResult> Post(GameDto dto)
         {

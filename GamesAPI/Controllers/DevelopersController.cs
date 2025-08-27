@@ -1,4 +1,5 @@
-﻿using GamesAPI.Models;
+﻿using GamesAPI.DTOs;
+using GamesAPI.Models;
 using GamesAPI.Services;
 using Microsoft.AspNetCore.Mvc;
 
@@ -13,6 +14,13 @@ namespace GamesAPI.Controllers
         public DevelopersController(DeveloperService service)
         {
             _service = service;
+        }
+
+        [HttpGet("withGames")]
+        public async Task<ActionResult<List<DeveloperWithGamesDto>>> GetDevelopersWithGames()
+        {
+            var result = await _service.GetAllWithGamesAsync();
+            return Ok(result);
         }
 
         [HttpGet]

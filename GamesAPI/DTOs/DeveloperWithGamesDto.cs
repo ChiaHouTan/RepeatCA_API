@@ -11,6 +11,6 @@ namespace GamesAPI.DTOs
         public DateTime FoundedYear { get; set; }
         public string? Country { get; set; }
         public bool IsIndependent { get; set; }
-        public List<GameDto> Games { get; set; } = new();
+        public List<GameDto2> Games { get; set; } = new();
     }
 }

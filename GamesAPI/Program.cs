@@ -1,4 +1,5 @@
 using GamesAPI.Models;
+using GamesAPI.Services;
 using GamesAPI.Settings;
 using Microsoft.Extensions.Options;
 using MongoDB.Driver;

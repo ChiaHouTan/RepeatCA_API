@@ -21,8 +21,5 @@ namespace GamesAPI.Models
 
         [BsonElement("IsIndependent")]
         public bool IsIndependent { get; set; }
-
-        [BsonElement("Games")]
-        public List<GameItem> Games { get; set; } = new();
     }
 }

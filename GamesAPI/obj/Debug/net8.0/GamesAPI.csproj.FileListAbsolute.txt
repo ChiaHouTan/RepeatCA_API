@@ -34,3 +34,9 @@ C:\Users\TANCH\Desktop\Repeat\RepeatCA_API\GamesAPI\obj\Debug\net8.0\refint\Game
 C:\Users\TANCH\Desktop\Repeat\RepeatCA_API\GamesAPI\obj\Debug\net8.0\GamesAPI.pdb
 C:\Users\TANCH\Desktop\Repeat\RepeatCA_API\GamesAPI\obj\Debug\net8.0\GamesAPI.genruntimeconfig.cache
 C:\Users\TANCH\Desktop\Repeat\RepeatCA_API\GamesAPI\obj\Debug\net8.0\ref\GamesAPI.dll
+C:\Users\TANCH\Desktop\Repeat\RepeatCA_API\GamesAPI\bin\Debug\net8.0\DnsClient.dll
+C:\Users\TANCH\Desktop\Repeat\RepeatCA_API\GamesAPI\bin\Debug\net8.0\MongoDB.Bson.dll
+C:\Users\TANCH\Desktop\Repeat\RepeatCA_API\GamesAPI\bin\Debug\net8.0\MongoDB.Driver.dll
+C:\Users\TANCH\Desktop\Repeat\RepeatCA_API\GamesAPI\bin\Debug\net8.0\SharpCompress.dll
+C:\Users\TANCH\Desktop\Repeat\RepeatCA_API\GamesAPI\bin\Debug\net8.0\Snappier.dll
+C:\Users\TANCH\Desktop\Repeat\RepeatCA_API\GamesAPI\bin\Debug\net8.0\ZstdSharp.dll

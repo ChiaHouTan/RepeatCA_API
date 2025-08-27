@@ -208,7 +208,7 @@
         }
       }
     },
-    "/api/Developers/byName/{name}": {
+    "/api/Developers/byName": {
       "get": {
         "tags": [
           "Developers"
@@ -216,8 +216,7 @@
         "parameters": [
           {
             "name": "name",
-            "in": "path",
-            "required": true,
+            "in": "query",
             "schema": {
               "type": "string"
             }

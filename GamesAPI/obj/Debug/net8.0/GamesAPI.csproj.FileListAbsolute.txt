@@ -39,3 +39,4 @@ C:\Users\TANCH\Desktop\Repeat\RepeatCA_API\GamesAPI\bin\Debug\net8.0\MongoDB.Dri
 C:\Users\TANCH\Desktop\Repeat\RepeatCA_API\GamesAPI\bin\Debug\net8.0\SharpCompress.dll
 C:\Users\TANCH\Desktop\Repeat\RepeatCA_API\GamesAPI\bin\Debug\net8.0\Snappier.dll
 C:\Users\TANCH\Desktop\Repeat\RepeatCA_API\GamesAPI\bin\Debug\net8.0\ZstdSharp.dll
+C:\Users\TANCH\Desktop\Repeat\RepeatCA_API\GamesAPI\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt

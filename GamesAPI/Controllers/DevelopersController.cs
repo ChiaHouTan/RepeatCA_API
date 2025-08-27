@@ -54,8 +54,8 @@ namespace GamesAPI.Controllers
             };
         }
 
-        [HttpGet("byName/{name}")]
-        public async Task<ActionResult<List<DeveloperDto>>> GetByName(string name)
+        [HttpGet("byName")]
+        public async Task<ActionResult<List<DeveloperDto>>> GetByName([FromQuery] string name)
         {
 
             var developers = await _service.GetByNameAsync(name);

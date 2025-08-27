@@ -101,7 +101,7 @@
   {
     "ContainingType": "GamesAPI.Controllers.DevelopersController",
     "Method": "GetByName",
-    "RelativePath": "api/Developers/byName/{name}",
+    "RelativePath": "api/Developers/byName",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -109,7 +109,7 @@
       {
         "Name": "name",
         "Type": "System.String",
-        "IsRequired": true
+        "IsRequired": false
       }
     ],
     "ReturnTypes": [

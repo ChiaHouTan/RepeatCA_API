@@ -50,4 +50,16 @@ namespace GamesAPI.Models
         [BsonElement("DeveloperId")]
         public string DeveloperId { get; set; } = null!;
     }
+
+    public class GameDto
+    {
+        public string? Id { get; set; }
+        public string? Title { get; set; }
+        public string? Image { get; set; }
+        public DateTime ReleaseDate { get; set; }
+        public string? Genre { get; set; }
+        public double Price { get; set; }
+        public double Rating { get; set; }
+        public string? DeveloperId { get; set; }
+    }
 }

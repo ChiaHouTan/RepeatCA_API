@@ -1,8 +1,10 @@
+using GamesAPI;
 using GamesAPI.Models;
 using GamesAPI.Services;
 using GamesAPI.Settings;
 using Microsoft.Extensions.Options;
 using MongoDB.Driver;
+using static GamesAPI.DateTimeConverter;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -43,7 +45,11 @@ builder.Services.AddScoped<IMongoCollection<GameItem>>(s =>
 builder.Services.AddScoped<DeveloperService>();
 builder.Services.AddScoped<GameService>();
 
-builder.Services.AddControllers();
+builder.Services.AddControllers()
+    .AddJsonOptions(options =>
+    {
+        options.JsonSerializerOptions.Converters.Add(new DateTimeConverter());
+    });
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();

@@ -18,7 +18,7 @@
                 "schema": {
                   "type": "array",
                   "items": {
-                    "$ref": "#/components/schemas/DeveloperItem"
+                    "$ref": "#/components/schemas/DeveloperDto"
                   }
                 }
               },
@@ -26,7 +26,7 @@
                 "schema": {
                   "type": "array",
                   "items": {
-                    "$ref": "#/components/schemas/DeveloperItem"
+                    "$ref": "#/components/schemas/DeveloperDto"
                   }
                 }
               },
@@ -34,7 +34,7 @@
                 "schema": {
                   "type": "array",
                   "items": {
-                    "$ref": "#/components/schemas/DeveloperItem"
+                    "$ref": "#/components/schemas/DeveloperDto"
                   }
                 }
               }
@@ -50,17 +50,17 @@
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "#/components/schemas/DeveloperItem"
+                "$ref": "#/components/schemas/DeveloperDto"
               }
             },
             "text/json": {
               "schema": {
-                "$ref": "#/components/schemas/DeveloperItem"
+                "$ref": "#/components/schemas/DeveloperDto"
               }
             },
             "application/*+json": {
               "schema": {
-                "$ref": "#/components/schemas/DeveloperItem"
+                "$ref": "#/components/schemas/DeveloperDto"
               }
             }
           }
@@ -93,17 +93,17 @@
             "content": {
               "text/plain": {
                 "schema": {
-                  "$ref": "#/components/schemas/DeveloperItem"
+                  "$ref": "#/components/schemas/DeveloperDto"
                 }
               },
               "application/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/DeveloperItem"
+                  "$ref": "#/components/schemas/DeveloperDto"
                 }
               },
               "text/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/DeveloperItem"
+                  "$ref": "#/components/schemas/DeveloperDto"
                 }
               }
             }
@@ -128,17 +128,17 @@
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "#/components/schemas/DeveloperItem"
+                "$ref": "#/components/schemas/DeveloperDto"
               }
             },
             "text/json": {
               "schema": {
-                "$ref": "#/components/schemas/DeveloperItem"
+                "$ref": "#/components/schemas/DeveloperDto"
               }
             },
             "application/*+json": {
               "schema": {
-                "$ref": "#/components/schemas/DeveloperItem"
+                "$ref": "#/components/schemas/DeveloperDto"
               }
             }
           }
@@ -183,7 +183,7 @@
                 "schema": {
                   "type": "array",
                   "items": {
-                    "$ref": "#/components/schemas/GameItem"
+                    "$ref": "#/components/schemas/GameDto"
                   }
                 }
               },
@@ -191,7 +191,7 @@
                 "schema": {
                   "type": "array",
                   "items": {
-                    "$ref": "#/components/schemas/GameItem"
+                    "$ref": "#/components/schemas/GameDto"
                   }
                 }
               },
@@ -199,7 +199,7 @@
                 "schema": {
                   "type": "array",
                   "items": {
-                    "$ref": "#/components/schemas/GameItem"
+                    "$ref": "#/components/schemas/GameDto"
                   }
                 }
               }
@@ -215,17 +215,17 @@
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "#/components/schemas/GameItem"
+                "$ref": "#/components/schemas/GameDto"
               }
             },
             "text/json": {
               "schema": {
-                "$ref": "#/components/schemas/GameItem"
+                "$ref": "#/components/schemas/GameDto"
               }
             },
             "application/*+json": {
               "schema": {
-                "$ref": "#/components/schemas/GameItem"
+                "$ref": "#/components/schemas/GameDto"
               }
             }
           }
@@ -258,17 +258,17 @@
             "content": {
               "text/plain": {
                 "schema": {
-                  "$ref": "#/components/schemas/GameItem"
+                  "$ref": "#/components/schemas/GameDto"
                 }
               },
               "application/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/GameItem"
+                  "$ref": "#/components/schemas/GameDto"
                 }
               },
               "text/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/GameItem"
+                  "$ref": "#/components/schemas/GameDto"
                 }
               }
             }
@@ -293,17 +293,17 @@
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "#/components/schemas/GameItem"
+                "$ref": "#/components/schemas/GameDto"
               }
             },
             "text/json": {
               "schema": {
-                "$ref": "#/components/schemas/GameItem"
+                "$ref": "#/components/schemas/GameDto"
               }
             },
             "application/*+json": {
               "schema": {
-                "$ref": "#/components/schemas/GameItem"
+                "$ref": "#/components/schemas/GameDto"
               }
             }
           }
@@ -358,7 +358,7 @@
                 "schema": {
                   "type": "array",
                   "items": {
-                    "$ref": "#/components/schemas/GameItem"
+                    "$ref": "#/components/schemas/GameDto"
                   }
                 }
               },
@@ -366,7 +366,7 @@
                 "schema": {
                   "type": "array",
                   "items": {
-                    "$ref": "#/components/schemas/GameItem"
+                    "$ref": "#/components/schemas/GameDto"
                   }
                 }
               },
@@ -374,7 +374,7 @@
                 "schema": {
                   "type": "array",
                   "items": {
-                    "$ref": "#/components/schemas/GameItem"
+                    "$ref": "#/components/schemas/GameDto"
                   }
                 }
               }
@@ -386,7 +386,7 @@
   },
   "components": {
     "schemas": {
-      "DeveloperItem": {
+      "DeveloperDto": {
         "type": "object",
         "properties": {
           "id": {
@@ -398,8 +398,8 @@
             "nullable": true
           },
           "foundedYear": {
-            "type": "string",
-            "format": "date-time"
+            "type": "integer",
+            "format": "int32"
           },
           "country": {
             "type": "string",
@@ -411,7 +411,7 @@
         },
         "additionalProperties": false
       },
-      "GameItem": {
+      "GameDto": {
         "type": "object",
         "properties": {
           "id": {
@@ -431,7 +431,8 @@
             "format": "date-time"
           },
           "genre": {
-            "$ref": "#/components/schemas/GenreType"
+            "type": "string",
+            "nullable": true
           },
           "price": {
             "type": "number",
@@ -447,23 +448,6 @@
           }
         },
         "additionalProperties": false
-      },
-      "GenreType": {
-        "enum": [
-          0,
-          1,
-          2,
-          3,
-          4,
-          5,
-          6,
-          7,
-          8,
-          9,
-          10
-        ],
-        "type": "integer",
-        "format": "int32"
       }
     }
   }

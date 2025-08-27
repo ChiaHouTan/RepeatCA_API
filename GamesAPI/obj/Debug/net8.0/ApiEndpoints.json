@@ -9,7 +9,7 @@
     "Parameters": [],
     "ReturnTypes": [
       {
-        "Type": "System.Collections.Generic.List\u00601[[GamesAPI.Models.DeveloperItem, GamesAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "System.Collections.Generic.List\u00601[[GamesAPI.Models.DeveloperDto, GamesAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -28,8 +28,8 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "dev",
-        "Type": "GamesAPI.Models.DeveloperItem",
+        "Name": "dto",
+        "Type": "GamesAPI.Models.DeveloperDto",
         "IsRequired": true
       }
     ],
@@ -51,7 +51,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "GamesAPI.Models.DeveloperItem",
+        "Type": "GamesAPI.Models.DeveloperDto",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -75,8 +75,8 @@
         "IsRequired": true
       },
       {
-        "Name": "dev",
-        "Type": "GamesAPI.Models.DeveloperItem",
+        "Name": "dto",
+        "Type": "GamesAPI.Models.DeveloperDto",
         "IsRequired": true
       }
     ],
@@ -108,7 +108,7 @@
     "Parameters": [],
     "ReturnTypes": [
       {
-        "Type": "System.Collections.Generic.List\u00601[[GamesAPI.Models.GameItem, GamesAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "System.Collections.Generic.List\u00601[[GamesAPI.Models.GameDto, GamesAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -127,8 +127,8 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "game",
-        "Type": "GamesAPI.Models.GameItem",
+        "Name": "dto",
+        "Type": "GamesAPI.Models.GameDto",
         "IsRequired": true
       }
     ],
@@ -150,7 +150,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "GamesAPI.Models.GameItem",
+        "Type": "GamesAPI.Models.GameDto",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -174,8 +174,8 @@
         "IsRequired": true
       },
       {
-        "Name": "game",
-        "Type": "GamesAPI.Models.GameItem",
+        "Name": "dto",
+        "Type": "GamesAPI.Models.GameDto",
         "IsRequired": true
       }
     ],
@@ -213,7 +213,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "System.Collections.Generic.List\u00601[[GamesAPI.Models.GameItem, GamesAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "System.Collections.Generic.List\u00601[[GamesAPI.Models.GameDto, GamesAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "text/plain",
           "application/json",

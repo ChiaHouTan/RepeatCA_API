@@ -1,0 +1,66 @@
+﻿@using GameBlazorApp.Models
+@inject IDeveloperApiService DeveloperService
+
+<h3>Search Developer</h3>
+
+<EditForm Model="@searchModel" OnValidSubmit="SearchDeveloper" FormName="searchDeveloperTable">
+    <InputText @bind-Value="searchModel.Name" placeholder="Enter developer name" class="form-control" />
+    <button type="submit" class="btn btn-primary mt-2">Search</button>
+</EditForm>
+
+@if (searchResults == null)
+{
+    <p>Enter a name and click Search.</p>
+}
+else if (!searchResults.Any())
+{
+    <p>No developers found.</p>
+}
+else
+{
+    <table class="table table-bordered mt-2">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Founded</th>
+                <th>Country</th>
+                <th>Independent</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var dev in searchResults)
+            {
+                <tr>
+                    <td>@dev.DeveloperName</td>
+                    <td>@dev.FoundedYear</td>
+                    <td>@dev.Country</td>
+                    <td>@(dev.IsIndependent ? "Yes" : "No")</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+
+@code {
+    private SearchModel searchModel = new SearchModel { Name = "cap" }; // start empty
+    private List<DeveloperDto>? searchResults;
+
+    private async Task SearchDeveloper()
+    {
+        if (!string.IsNullOrWhiteSpace(searchModel.Name))
+        {
+            searchResults = await DeveloperService.GetByNameAsync(searchModel.Name);
+        }
+        else
+        {
+            searchResults = new List<DeveloperDto>();
+        }
+
+        StateHasChanged(); // ensure UI updates
+    }
+
+    private class SearchModel
+    {
+        public string? Name { get; set; }
+    }
+}

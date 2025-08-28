@@ -1,0 +1,73 @@
+﻿@using GameBlazorApp.Models
+@inject IDeveloperApiService DeveloperService
+
+<h3>Developers & Games</h3>
+
+@if (developers == null)
+{
+    <p>Loading...</p>
+}
+else if (!developers.Any())
+{
+    <p>No developers found.</p>
+}
+else
+{
+    <table class="table table-bordered">
+        <thead class="table-light">
+            <tr>
+                <th>Developer Name</th>
+                <th>Founded</th>
+                <th>Country</th>
+                <th>Independent</th>
+                <th>Game Title</th>
+                <th>Release Date</th>
+                <th>Genre</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var dev in developers)
+            {
+                var gameCount = dev.Games.Count;
+                <tr>
+                    <td rowspan="@Math.Max(gameCount, 1)">@dev.DeveloperName</td>
+                    <td rowspan="@Math.Max(gameCount, 1)">@dev.FoundedYear</td>
+                    <td rowspan="@Math.Max(gameCount, 1)">@dev.Country</td>
+                    <td rowspan="@Math.Max(gameCount, 1)">@(dev.IsIndependent ? "Yes" : "No")</td>
+
+                    @if (dev.Games.Any())
+                    {
+                        <td>@dev.Games[0].Title</td>
+                        <td>@dev.Games[0].ReleaseDate</td>
+                        <td>@dev.Games[0].Genre</td>
+                    }
+                    else
+                    {
+                        <td colspan="4"><em>No games</em></td>
+                    }
+                </tr>
+
+                @if (dev.Games.Count > 1)
+                {
+                    @for (int i = 1; i < dev.Games.Count; i++)
+                    {
+                        <tr>
+                            <td>@dev.Games[i].Title</td>
+                            <td>@dev.Games[i].ReleaseDate</td>
+                            <td>@dev.Games[i].Genre</td>
+                        </tr>
+                    }
+                }
+            }
+        </tbody>
+    </table>
+}
+
+@code {
+    private List<DeveloperWithGamesDto>? developers;
+
+    protected override async Task OnInitializedAsync()
+    {
+        developers = await DeveloperService.GetAllWithGamesAsync();
+    }
+}

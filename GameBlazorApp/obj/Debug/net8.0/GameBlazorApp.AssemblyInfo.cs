@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("GameBlazorApp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1b308c7459f3d08f749b129d50e94b1b9b49b401")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f3ccb1af998e6cc731db7575a465cb70d4388f1e")]
 [assembly: System.Reflection.AssemblyProductAttribute("GameBlazorApp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("GameBlazorApp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

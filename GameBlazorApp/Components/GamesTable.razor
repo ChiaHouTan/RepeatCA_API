@@ -1,0 +1,94 @@
+﻿@using GameBlazorApp.Models
+@inject IGameApiService GameService
+
+<h3>All Games</h3>
+
+@if (games == null)
+{
+    <p>Loading games...</p>
+}
+else if (!games.Any())
+{
+    <p>No games found.</p>
+}
+else
+{
+    <table class="table table-bordered">
+        <thead class="table-light">
+            <tr>
+                <th>Image</th>
+                <th>Title</th>
+                <th>Genre</th>
+                <th>Release Date</th>
+                <th>Price</th>
+                <th>Rating</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var game in games)
+            {
+                <tr>
+                    <td><img src="@game.Image" alt="@game.Title" style="height:100px;" /></td>
+                    <td>@game.Title</td>
+                    <td>@game.Genre</td>
+                    <td>@game.ReleaseDate</td>
+                    <td>$@game.Price</td>
+                    <td>@game.Rating</td>
+                    <td>
+                        <button @onclick="() => DeleteGame(game.Id)"class=" btn btn-danger btn-sm">Delete</button>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+
+@code {
+    private List<GameDto>? games;
+
+    protected override async Task OnInitializedAsync()
+    {
+        try
+        {
+            games = await GameService.GetAllAsync();
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine($"Error fetching games: {ex.Message}");
+        }
+    }
+
+    private async Task LoadGamesAsync()
+    {
+        try
+        {
+            games = await GameService.GetAllAsync();
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine($"Error fetching games: {ex.Message}");
+        }
+    }
+
+    private async Task DeleteGame(string? id)
+    {
+        if (string.IsNullOrEmpty(id)) return;
+
+        bool confirm = await JS.InvokeAsync<bool>("confirm", $"Are you sure you want to delete this game?");
+        if (!confirm) return;
+
+        try
+        {
+            await GameService.DeleteAsync(id);
+            await LoadGamesAsync(); // refresh list
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine($"Error deleting game: {ex.Message}");
+        }
+    }
+
+    [Inject]
+    private IJSRuntime JS { get; set; } = default!;
+}

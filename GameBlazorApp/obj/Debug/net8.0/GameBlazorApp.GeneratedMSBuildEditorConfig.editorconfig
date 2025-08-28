@@ -20,12 +20,20 @@ build_property._RazorSourceGeneratorDebug =
 build_property.EffectiveAnalysisLevelStyle = 8.0
 build_property.EnableCodeStyleSeverity = 
 
+[C:/Users/TANCH/Desktop/Repeat/RepeatCA_API/GameBlazorApp/Components/AddGameModel.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xBZGRHYW1lTW9kZWwucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/TANCH/Desktop/Repeat/RepeatCA_API/GameBlazorApp/Components/App.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xBcHAucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/TANCH/Desktop/Repeat/RepeatCA_API/GameBlazorApp/Components/DeveloperGamesTable.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xEZXZlbG9wZXJHYW1lc1RhYmxlLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/TANCH/Desktop/Repeat/RepeatCA_API/GameBlazorApp/Components/GamesTable.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xHYW1lc1RhYmxlLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/TANCH/Desktop/Repeat/RepeatCA_API/GameBlazorApp/Components/Pages/Error.razor]

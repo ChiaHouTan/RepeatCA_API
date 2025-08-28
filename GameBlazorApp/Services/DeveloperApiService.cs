@@ -15,6 +15,11 @@ public class DeveloperApiService : IDeveloperApiService
         return await _http.GetFromJsonAsync<List<DeveloperWithGamesDto>>("api/developers/withGames");
     }
 
+    public async Task<List<DeveloperDto>> GetAllAsync()
+    {
+        return await _http.GetFromJsonAsync<List<DeveloperDto>>("api/developers");
+    }
+
     public async Task<List<DeveloperDto>> GetByNameAsync(string name)
     {
         return await _http.GetFromJsonAsync<List<DeveloperDto>>($"api/Developers/byName?name={name}");

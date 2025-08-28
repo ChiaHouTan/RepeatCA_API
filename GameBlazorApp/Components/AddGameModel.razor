@@ -1,0 +1,114 @@
+﻿@page "/add-game"
+@using GameBlazorApp.Models
+@inject IGameApiService GameService
+@inject IDeveloperApiService DeveloperService
+
+<h3>Add New Game</h3>
+
+@if (developers == null)
+{
+    <p>Loading developers...</p>
+}
+else
+{
+    <EditForm Model="@newGame" OnValidSubmit="AddGame" FormName="addGameForm">
+        <DataAnnotationsValidator />
+        <ValidationSummary />
+
+        <div class="mb-2">
+            <label>Title</label>
+            <InputText @bind-Value="newGame.Title" class="form-control" />
+        </div>
+
+        <div class="mb-2">
+            <label>Image URL</label>
+            <InputText @bind-Value="newGame.Image" class="form-control" />
+        </div>
+
+        <div class="mb-2">
+            <label>Release Date</label>
+            <InputDate @bind-Value="newGame.ReleaseDate" class="form-control" />
+        </div>
+
+        <div class="mb-2">
+            <label>Genre</label>
+            <InputSelect @bind-Value="newGame.Genre" class="form-control">
+                <option value="">Select Genre</option>
+                @foreach (var g in genres)
+                {
+                    <option value="@g">@g</option>
+                }
+            </InputSelect>
+        </div>
+
+        <div class="mb-2">
+            <label>Price</label>
+            <InputNumber @bind-Value="newGame.Price" class="form-control" />
+        </div>
+
+        <div class="mb-2">
+            <label>Rating</label>
+            <InputNumber @bind-Value="newGame.Rating" class="form-control" />
+        </div>
+
+        <div class="mb-2">
+            <label>Developer</label>
+            <InputSelect @bind-Value="newGame.DeveloperId" class="form-control">
+                <option value="">Select Developer</option>
+                @foreach (var dev in developers)
+                {
+                    <option value="@dev.Id">@dev.DeveloperName</option>
+                }
+            </InputSelect>
+        </div>
+
+        <button type="submit" class="btn btn-primary">Add Game</button>
+    </EditForm>
+
+    @if (!string.IsNullOrEmpty(message))
+    {
+        <p class="mt-2">@message</p>
+    }
+}
+
+@code {
+    private GameDto2 newGame = new GameDto2
+    {
+        ReleaseDate = DateTime.Today
+    };
+
+    private List<DeveloperDto>? developers;
+    private string message = "";
+
+    private List<string> genres = new()
+    {
+        "Action","Adventure","RPG","Puzzle","Strategy",
+        "Simulation","Sports","Horror","Shooter","Racing","Other"
+    };
+
+    protected override async Task OnInitializedAsync()
+    {
+        developers = await DeveloperService.GetAllAsync();
+    }
+
+    private async Task AddGame()
+    {
+        try
+        {
+            if (string.IsNullOrWhiteSpace(newGame.DeveloperId))
+            {
+                message = "Please select a developer.";
+                return;
+            }
+
+            var result = await GameService.CreateAsync(newGame);
+            message = $"Game '{result.Title}' added successfully!";
+            // reset form
+            newGame = new GameDto2 { ReleaseDate = DateTime.Today };
+        }
+        catch (Exception ex)
+        {
+            message = $"Error adding game: {ex.Message}";
+        }
+    }
+}

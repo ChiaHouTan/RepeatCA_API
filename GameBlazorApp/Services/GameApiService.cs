@@ -25,11 +25,11 @@ public class GameApiService : IGameApiService
         return await _http.GetFromJsonAsync<GameDto>($"api/games/{id}");
     }
 
-    public async Task<GameDto> CreateAsync(GameDto dto)
+    public async Task<GameDto2> CreateAsync(GameDto2 dto)
     {
         var response = await _http.PostAsJsonAsync("api/games", dto);
         response.EnsureSuccessStatusCode();
-        return await response.Content.ReadFromJsonAsync<GameDto>();
+        return await response.Content.ReadFromJsonAsync<GameDto2>();
     }
 
     public async Task UpdateAsync(string id, GameDto dto)

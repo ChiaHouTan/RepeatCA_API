@@ -3,6 +3,9 @@
   "WorkspaceRootPath": "C:\\Users\\TANCH\\Desktop\\Repeat\\RepeatCA_API\\GamesAPI\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{0F34A046-B772-457A-A208-AE92B6E19078}|..\\GameBlazorApp\\GameBlazorApp.csproj|c:\\users\\tanch\\desktop\\repeat\\repeatca_api\\gameblazorapp\\components\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{0F34A046-B772-457A-A208-AE92B6E19078}|..\\GameBlazorApp\\GameBlazorApp.csproj|c:\\users\\tanch\\desktop\\repeat\\repeatca_api\\gameblazorapp\\components\\gamestable.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
@@ -11,9 +14,6 @@
     },
     {
       "AbsoluteMoniker": "D:0:0:{0F34A046-B772-457A-A208-AE92B6E19078}|..\\GameBlazorApp\\GameBlazorApp.csproj|c:\\users\\tanch\\desktop\\repeat\\repeatca_api\\gameblazorapp\\components\\addgamemodel.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0F34A046-B772-457A-A208-AE92B6E19078}|..\\GameBlazorApp\\GameBlazorApp.csproj|c:\\users\\tanch\\desktop\\repeat\\repeatca_api\\gameblazorapp\\components\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -23,7 +23,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -31,20 +31,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "GamesTable.razor",
               "DocumentMoniker": "C:\\Users\\TANCH\\Desktop\\Repeat\\RepeatCA_API\\GameBlazorApp\\Components\\GamesTable.razor",
               "RelativeDocumentMoniker": "..\\GameBlazorApp\\Components\\GamesTable.razor",
               "ToolTip": "C:\\Users\\TANCH\\Desktop\\Repeat\\RepeatCA_API\\GameBlazorApp\\Components\\GamesTable.razor",
               "RelativeToolTip": "..\\GameBlazorApp\\Components\\GamesTable.razor",
-              "ViewState": "AgIAABQAAAAAAAAAAAAwwCMAAAApAAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-08-28T16:17:29.238Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-28T16:17:29.238Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "GameItem.cs",
               "DocumentMoniker": "C:\\Users\\TANCH\\Desktop\\Repeat\\RepeatCA_API\\GamesAPI\\Models\\GameItem.cs",
               "RelativeDocumentMoniker": "Models\\GameItem.cs",
@@ -52,12 +51,11 @@
               "RelativeToolTip": "Models\\GameItem.cs",
               "ViewState": "AgIAADQAAAAAAAAAAAAYwAkAAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-28T16:05:08.329Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-28T16:05:08.329Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "AddGameModel.razor",
               "DocumentMoniker": "C:\\Users\\TANCH\\Desktop\\Repeat\\RepeatCA_API\\GameBlazorApp\\Components\\AddGameModel.razor",
               "RelativeDocumentMoniker": "..\\GameBlazorApp\\Components\\AddGameModel.razor",
@@ -65,18 +63,17 @@
               "RelativeToolTip": "..\\GameBlazorApp\\Components\\AddGameModel.razor",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAABNAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-08-28T15:28:57.365Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-28T15:28:57.365Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "Home.razor",
               "DocumentMoniker": "C:\\Users\\TANCH\\Desktop\\Repeat\\RepeatCA_API\\GameBlazorApp\\Components\\Pages\\Home.razor",
               "RelativeDocumentMoniker": "..\\GameBlazorApp\\Components\\Pages\\Home.razor",
               "ToolTip": "C:\\Users\\TANCH\\Desktop\\Repeat\\RepeatCA_API\\GameBlazorApp\\Components\\Pages\\Home.razor",
               "RelativeToolTip": "..\\GameBlazorApp\\Components\\Pages\\Home.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAOAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAwwA0AAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-08-28T15:18:51.031Z",
               "EditorCaption": ""

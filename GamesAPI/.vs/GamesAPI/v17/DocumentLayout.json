@@ -39,8 +39,7 @@
               "RelativeToolTip": "..\\GameBlazorApp\\Components\\GamesTable.razor",
               "ViewState": "AgIAAAkAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-08-28T16:17:29.238Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-28T16:17:29.238Z"
             },
             {
               "$type": "Document",
@@ -52,8 +51,7 @@
               "RelativeToolTip": "Models\\GameItem.cs",
               "ViewState": "AgIAADQAAAAAAAAAAAAYwAkAAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-28T16:05:08.329Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-28T16:05:08.329Z"
             },
             {
               "$type": "Document",
@@ -65,8 +63,7 @@
               "RelativeToolTip": "..\\GameBlazorApp\\Components\\AddGameModel.razor",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAABNAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-08-28T15:28:57.365Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-28T15:28:57.365Z"
             },
             {
               "$type": "Document",
@@ -76,7 +73,7 @@
               "RelativeDocumentMoniker": "..\\GameBlazorApp\\Components\\Pages\\Home.razor",
               "ToolTip": "C:\\Users\\TANCH\\Desktop\\Repeat\\RepeatCA_API\\GameBlazorApp\\Components\\Pages\\Home.razor",
               "RelativeToolTip": "..\\GameBlazorApp\\Components\\Pages\\Home.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAwwAYAAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-08-28T15:18:51.031Z",
               "EditorCaption": ""
